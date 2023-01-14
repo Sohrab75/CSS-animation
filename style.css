@@ -1,0 +1,233 @@
+.animation{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation: mymove 30s infinite;
+
+}
+
+.fa-solid{
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+@keyframes mymove{
+    0% {left:0px; }
+    5% {left: 100px;}
+    10%{left: 200px;}
+    15%{left: 300px;}
+    20%{left: 400px;}
+    25%{left: 500px;}
+    30%{left: 600px;}
+    35%{left: 700px;}
+    40%{left: 800px;}
+    45%{left: 900px;}
+    50%{left: 1000px;}
+   
+
+}
+.animation2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    position: relative;
+    align-items: center;
+    animation: myMove1 30s infinite;
+    margin-top: 50px;
+}
+
+.image{
+   
+    margin-right: 50px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 10px;
+    padding: 25px;
+}
+
+@keyframes myMove1{
+    0% {left:0px; }
+    5% {left: 50px; rotate: 30deg;}
+    10%{left: 100px; rotate: 60deg;}
+    15%{left: 150px; rotate: 90deg;}
+    20%{left: 200px; rotate: 120deg;}
+    25%{left: 250px; rotate: 150deg;}
+    30%{left: 300px; rotate: 180deg;}
+    35%{left: 350px; rotate: 210deg;}
+    40%{left: 400px; rotate: 240eg;}
+    45%{left: 450px; rotate: 300deg;}
+    50%{left: 500px; rotate: 360deg;}
+    
+
+}
+
+.A{
+    width: 80px;
+    height: 80px;
+    animation: myMove2 30s infinite;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.B{
+    width: 80px;
+    height: 80px;
+    animation: myMove2 30s infinite;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.C{
+    width: 80px;
+    height: 80px;
+    animation: myMove2 30s infinite;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.D{
+    width: 80px;
+    height: 80px;
+    animation: myMove2 30s infinite;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+@keyframes myMove2{
+    0%{left: 0px; background-color: red; rotate: 0deg;}
+    20%{left:100px; background-color: blue; rotate: 30deg;}
+    40%{left: 200px; background-color: green; rotate: 0deg;}
+    60%{left:300px; background-color: yellow; rotate: -30deg;}
+    80%{left: 400px; background-color: black; rotate: 0deg;}
+    100%{left:500px; background-color: yellowgreen; rotate: 30deg;}
+}
+    
+.doremon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: relative;
+    left: 400px;
+}
+
+.fa-solid{
+    position: absolute;
+    margin-left: 10px;
+}
+.fa-sharp{
+    margin-left: 35px;
+}
+
+.neck{
+    width: 35px;
+    height: 50px;
+    background-color: green;
+    position: relative;
+    left: 420px;
+    margin-top: -8px;
+    border-radius: 10px;
+}
+
+.body1{
+    position: relative;
+    width: 190px;
+    height: 300px;
+    background-color: green;
+    left: 350px;
+    border-radius: 10px;
+    margin-top: -8px;
+}
+
+.hand1{
+    width: 10px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    margin-top: 5px;
+    border-radius: 2px;
+    animation: handmove1 5s infinite;
+   
+
+}
+@keyframes handmove1{
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 0% 2%;
+    }
+    50% {
+        transform: rotate(45deg);
+        transform-origin: 0% 5%;
+    }
+    60% {
+        transform: rotate(45deg);
+        transform-origin: 0% 5%;
+    }
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 0% 5%;
+    }
+}
+
+.hand2{
+    width: 10px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    left: 180px;
+    margin-top: 5px;
+    border-radius: 2px;
+    animation: handmove2 5s infinite;
+
+}
+@keyframes handmove2{
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 0% 2%;
+    }
+    50% {
+        transform: rotate(-45deg);
+        transform-origin: 0% 5%;
+    }
+    60% {
+        transform: rotate(-45deg);
+        transform-origin: 0% 5%;
+    }
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 0% 5%;
+    }
+}
+.leg1{
+    width: 20px;
+    height: 220px;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    left: 380px;
+}
+
+.leg2{
+    width: 20px;
+    height: 220px;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    left: 460px;
+}
