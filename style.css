@@ -1,31 +1,37 @@
-.animation{
+.animation i{
     position: relative;
     display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-    animation: mymove 30s infinite;
+    /* width: 100px;
+    height: 100px; */
+    /* background-color: aqua; */
+    animation: mymove 8s infinite linear;
+    font-size: 45px;
+    
 
 }
 
-.fa-solid{
+/* .fa-solid{
     margin-top: 20px;
     width: 80px;
     height: 80px;
-}
+} */
 
 @keyframes mymove{
-    0% {left:0px; }
-    5% {left: 100px;}
-    10%{left: 200px;}
-    15%{left: 300px;}
-    20%{left: 400px;}
-    25%{left: 500px;}
-    30%{left: 600px;}
-    35%{left: 700px;}
-    40%{left: 800px;}
-    45%{left: 900px;}
-    50%{left: 1000px;}
+    0% {left:0px; color: red;}
+    5% {left: 100px; color: blue;}
+    10%{left: 200px;color: orange;}
+    15%{left: 300px;color: orangered;}
+    20%{left: 400px;color: green;}
+    25%{left: 500px;color: yellow;}
+    30%{left: 600px; color: yellowgreen;}
+    35%{left: 700px;color: blueviolet;}
+    40%{left: 800px;color: white;}
+    45%{left: 900px; color: royalblue;}
+    50%{left: 1000px;color: red;} 
+    55%{left: 1050px;color: blueviolet;}
+    60%{left: 1100px;color: white;}
+    65%{left: 1200px; color: royalblue;}
+    70%{left: 1250px;color: red;} 
    
 
 }
