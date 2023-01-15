@@ -4,7 +4,7 @@
     /* width: 100px;
     height: 100px; */
     /* background-color: aqua; */
-    animation: mymove 8s infinite linear;
+    animation: mymove 15s infinite linear;
     font-size: 45px;
     
 
@@ -32,21 +32,26 @@
     60%{left: 1100px;color: white;}
     65%{left: 1200px; color: royalblue;}
     70%{left: 1250px;color: red;} 
+    75%{left: 1300px; color: royalblue;}
+    80%{left: 1450px;color: red;} 
    
 
 }
-.animation2{
+.animation2 img{
     width: 100px;
     height: 100px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     position: relative;
     align-items: center;
     animation: myMove1 30s infinite;
     margin-top: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
 }
 
-.image{
+/* .image{
    
     margin-right: 50px;
     width: 20px;
@@ -54,7 +59,7 @@
     position: absolute;
     margin: 10px;
     padding: 25px;
-}
+} */
 
 @keyframes myMove1{
     0% {left:0px; }
